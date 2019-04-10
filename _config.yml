@@ -51,7 +51,7 @@ ga:
     # id: your_ga_id
     # host: your_host
 
-# Valine Comments
+# Valine Comments,app_id、app_key请自行前往leancloud注册
 valine_comment:
   enable: true
 # app_id
