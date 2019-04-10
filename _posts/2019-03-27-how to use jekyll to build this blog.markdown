@@ -60,7 +60,7 @@ bundle exec jekyll serve
 
 >post文件名中包含中文导致博文乱码
 
-解决方案
+解决办法
 
 >jekyll貌似不支持post文件名中带中文，可以通过在post的元参数title中设置中文标题来规避这个问题
 
