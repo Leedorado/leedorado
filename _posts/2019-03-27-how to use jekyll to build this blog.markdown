@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用jekyll从零开始搭建这个博客
+title: jekyll从零开始搭建这个博客
 # date: 2019-03-27 19:14:00
 categories: how to
 tags: how to,jekyll,blog
@@ -8,7 +8,7 @@ tags: how to,jekyll,blog
 
 ## **前言**
 
-该博客部署在阿里云上，评论模块采用[Valine](https://valine.js.org/)，这篇博文主要介绍如何从零开始搭建这个博客
+博客主题使用了[onevcat](https://onevcat.com)开源的vno jekyll，评论模块采用[Valine](https://valine.js.org/)，这篇博文主要介绍如何从零开始搭建这个博客
 
 ## **步骤**
 
@@ -16,7 +16,7 @@ tags: how to,jekyll,blog
 ```shell
 sudo yum update
 ```
-### **2、安装rvm**
+### **2、安装rvm**使用
 ```shell
 gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 
@@ -51,7 +51,7 @@ bundle install
 ### **6、集成Valine评论模块**
 参照[Valine官网](https://valine.js.org/quickstart.html)集成评论模块，并
 在_config.yml中配置自己的valine_comment参数
-### **7、运行**
+### **7、本地运行**
 ```shell
 cd path-to-your-project
 bundle exec jekyll serve
