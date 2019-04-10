@@ -55,9 +55,9 @@ ga:
 valine_comment:
   enable: true
 # app_id
-  leancloud_appid: 
+  leancloud_appid: 80rWJF9qOhqd4M4cSnNUK3XE-gzGzoHsz
 # app_key
-  leancloud_appkey: 
+  leancloud_appkey: p7vTSpY63hMU7zWgQKOnBlza
 # placeholde
   placeholder: 欢迎评论~
 
